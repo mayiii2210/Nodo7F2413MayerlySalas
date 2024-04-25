@@ -1,3 +1,30 @@
 body{
     background-color: antiquewhite;
 }
+
+img{
+    width: 200px;
+    height: 150px;
+    border: 2px dashed pink;
+}
+
+.imgs{
+    margin-left: 8px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+.mundo, header{
+    font-family: Arial, sans-serif;
+}
+
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
