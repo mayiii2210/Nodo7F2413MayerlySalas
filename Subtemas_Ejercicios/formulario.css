@@ -1,0 +1,74 @@
+.body{
+    background-color: mintcream;
+}
+
+.cuerpo{
+   border: 3px inset deeppink; 
+   width: 300px;
+   margin-left: 10%;
+   padding: 60px;
+   text-align: justify;
+   font-size: 20px;
+   background-color: rgb(246, 227, 190);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    padding: 13px;
+    border-radius: 4px;
+    margin-bottom: 11px;
+}
+
+ #nombre, #apellido, #email, #dir{
+    width: 300px;
+}
+
+#phone{
+    width: 330px;
+}
+
+select{
+    padding: 13px;
+    border-radius: 4px;
+    margin-bottom: 11px;
+    width: 330px;
+    
+}
+
+h1{
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-family: "Lugrasimo", cursive;
+      font-weight: 400;
+      font-style: normal;  
+      font-size: 50px; 
+}
+
+.cont2{
+    margin-left: 50%;
+    margin-top: -48%;
+    border: 3px inset deeppink;
+    padding: 60px;
+    width: 300px;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    background-color: rgb(246, 227, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    border-color: deeppink;
+    font-family: monospace;
+    font-size: 20px;
+}
