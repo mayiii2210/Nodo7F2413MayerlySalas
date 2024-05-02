@@ -1,15 +1,15 @@
-body {
+* {
     font-family: Tahoma;
   }
   
   /* color for all paragraphs */
-  .spaceships p {	color: #808080; }  
+  div p {	color: #808080; }  
   
   .primary:first-child{
     color: black;
   }
   
-  .spaceships .primary { 
+  div .primary { 
     color: darkkhaki; 
   }
   
