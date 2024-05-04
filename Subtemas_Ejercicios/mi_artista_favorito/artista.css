@@ -1,0 +1,148 @@
+  h1{
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C39BD3;
+    text-decoration: underline dotted; 
+    -webkit-transition: color 0,5s ease;
+    transition: color 0,5s ease;
+  }
+
+  h1:hover{
+    color: #F9EBEA;
+  }
+  
+  h2{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EBDEF0;
+    font-size: 30px;
+  }
+  a{
+    text-decoration: none;
+    color:#F1C40F;
+    font-size: 25px;
+  }
+  
+  body{
+    background: linear-gradient(#76448A, #8E44AD, #EBDEF0);
+    padding: 90px;
+  }
+  
+  dl{
+    font-family: Arial;
+    font-size: 24px;
+    color: #EAF2F8;
+  }
+  dd, p, h3, ol, dl{
+    font-family: Arial;
+  }
+   
+    .desc{
+      text-align: left;
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #FADBD8;
+      font-size: 20px;
+    }
+  
+  .ol{
+     color: #5B2C6F;
+     font-size: 20px;
+     text-decoration: underline;
+  }
+  
+  .ol2{
+    color: #4A235A;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration:overline;
+  }
+  
+  .foto1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 90px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #829ea0;
+    border-style: solid;
+    border-color: #95A5A6;
+    border-color: white;
+  }
+  
+  .foto1:hover{
+    transform: scale(1.1)
+  }
+  
+  .foto2{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #F1C40F;
+    border: 5px solid white;
+  }
+  
+  .foto2:hover{
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+  }
+
+  .foto3{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white; 
+  }
+
+  .foto3:hover{
+    opacity: 0.3;
+  }
+  
+  p{
+    text-align: justify;
+    border: 2px solid pink;
+    padding: 30px;
+  }
+  
+
+  iframe{
+    transition:  2s,  4s;
+    width: 250px;
+    height: 250px;
+  }
+
+  iframe:hover{
+    width: 400px;
+    height: 400px;
+  }
+  
+ .descr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: #EBEDEF;
+ }
+ 
+ .disc{
+  color: #B3B6B7;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+ }
+
+ .canc{
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  color: #FDFEFE;
+ }
