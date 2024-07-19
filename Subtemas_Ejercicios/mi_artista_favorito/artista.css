@@ -40,12 +40,13 @@
     padding: 90px;
   }
   
-  dl{
+  .integrantes > dl{
     font-family: Arial;
     font-size: 24px;
     color: #EAF2F8;
   }
-  dd, p, h3, ol, dl{
+  
+  .integrantes, dd, p, h3, ol, dl{
     font-family: Arial;
   }
    
