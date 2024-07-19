@@ -42,8 +42,7 @@ select{
 
 h1{
       font-family: "Dancing Script", cursive;
-      font-optical-sizing: auto;
-      font-weight: weight;
+      font-weight: 100;
       font-style: normal;
       font-family: "Lugrasimo", cursive;
       font-weight: 400;
@@ -51,13 +50,13 @@ h1{
       font-size: 50px; 
 }
 
-.cont2{
+.cont2 {
     margin-left: 50%;
-    margin-top: -48%;
+    margin-top: -60%;
     border: 3px inset deeppink;
     padding: 60px;
     width: 300px;
-    height: 560px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
@@ -65,10 +64,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button, input{
+button, input {
     padding: 20px;
     border-radius: 10px;
     border-color: deeppink;
     font-family: monospace;
     font-size: 20px;
+    margin-top: 10px;
 }

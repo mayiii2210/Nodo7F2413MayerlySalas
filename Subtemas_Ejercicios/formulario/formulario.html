@@ -7,7 +7,7 @@
     <meta name="Mayerly" content="Yo soy la creadora de este formulario">
     <meta name="description" content="Este formulario es para ingresar a la universidad de Nodo-Eafit">
     <link rel="stylesheet" href="formulario.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,108 +17,96 @@
 </head>
 
 <body>
-    <form action="">
+    <form>
         <h1>Registro para ingresar a NODO</h1>
         <div class="cuerpo">
-            <label for="fnombre">Nombre:</label>
+            <label id="fnombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Pepito" required>
             <br>
-            <label for="Apellido">Apellido:</label>
+            <label id="Apellido">Apellido:</label>
             <input type="text" name="apellido" id="apellido" placeholder="Restrepo" required>
             <br>
-            <label for="email">Email:</label>
+            <label id="gmail">Email:</label>
             <input type="email" id="email" name="email" placeholder="example@example.com" required>
             <br>
-            <label for="dir">Dirección:</label>
-            <input type="text" name="dir" id="dir" placeholder="calle 57 #1-43">
+            <label id="dir">Dirección:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="calle 57 #1-43">
             <br>
             <select name="dep" id="dep">
                 <option value="">Departamento</option>
                 <optgroup label="A">
-                    <option name="Ama" id="Ama" value="Ama">Amazonas</option>
-                    <option name="Ant" id="Ant" value="Ant">Antioquia</option>
-                    <option name="Ara" id="Ara" value="Ara">Arauca</option>
-                    <option name="Atla" id="Atla" value="Atla">Atlántico</option>
+                    <option id="Ama" value="Ama">Amazonas</option>
+                    <option id="Ant" value="Ant">Antioquia</option>
+                    <option id="Ara" value="Ara">Arauca</option>
+                    <option id="Atla" value="Atla">Atlántico</option>
                 </optgroup>
-                <hr>
-
+        
                 <optgroup label="B">
-                    <option name="Bol" id="Bol" value="Bol">Bolivar</option>
-                    <option name="Boy" id="Boy" value="Boy">Boyacá</option>
-                    <option name="Buca" id="Buca" value="Buca">Bucaramanga</option>
+                    <option id="Bol" value="Bol">Bolivar</option>
+                    <option id="Boy" value="Boy">Boyacá</option>
+                    <option id="Buca" value="Buca">Bucaramanga</option>
                 </optgroup>
-                <hr>
-
+           
                 <optgroup label="C">
-                    <option name="Cund" id="Cund" value="Cund">Cundinamarca</option>
+                    <option id="Cund" value="Cund">Cundinamarca</option>
                 </optgroup>
-                <hr>
+            
 
                 <optgroup label="D">
-                    <option name="Cau" id="Cau" value="Cau">Cauca</option>
-                    <option name="Caq" id="Caq" value="Caq">Caquetá</option>
-                    <option name="Cas" id="Cas" value="Cas">Casanare</option>
-                    <option name="Ces" id="Ces" value="Ces">Cesar</option>
-                    <option name="Choc" id="Choc" value="Choc">Chocó</option>
-                    <option name="Cor" id="Cor" value="Cor">Córdoba</option>
+                    <option id="Cau" value="Cau">Cauca</option>
+                    <option id="Caq" value="Caq">Caquetá</option>
+                    <option id="Cas" value="Cas">Casanare</option>
+                    <option id="Ces" value="Ces">Cesar</option>
+                    <option id="Choc" value="Choc">Chocó</option>
+                    <option id="Cor" value="Cor">Córdoba</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="G">
-                    <option name="Guaj" id="Guaj" value="Guaj">Guajira</option>
-                    <option name="Guai" id="Gaui" value="Guai">Guainía</option>
-                    <option name="Guav" id="Guav" value="Guav">Guaviare</option>
+                    <option id="Guaj" value="Guaj">Guajira</option>
+                    <option id="Gaui" value="Guai">Guainía</option>
+                    <option id="Guav" value="Guav">Guaviare</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="H">
-                    <option name="Hui" id="Hui" value="Hui">Huila</option>
+                    <option id="Hui" value="Hui">Huila</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="M">
-                    <option name="Magd" id="Magd" value="Magd">Magdalena</option>
-                    <option name="Met" id="Met" value="Met">Meta</option>
+                    <option id="Magd" value="Magd">Magdalena</option>
+                    <option id="Met" value="Met">Meta</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="N">
-                    <option name="Nar" id="Nar" value="Nar">Nariño</option>
-                    <option name="Nort" id="Nort" value="Nort">Norte de Santander</option>
+                    <option id="Nar" value="Nar">Nariño</option>
+                    <option id="Nort" value="Nort">Norte de Santander</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="P">
-                    <option name="Put" id="Put" value="Put">Putumayo</option>
+                    <option id="Put" value="Put">Putumayo</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="Q">
-                    <option name="Qun" id="Qun" value="Qun">Quindío</option>
+                    <option id="Qun" value="Qun">Quindío</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="R">
-                    <option name="Risa" id="Risa" value="Risa">Risaralda</option>
+                    <option id="Risa" value="Risa">Risaralda</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="S">
-                    <option name="Sucr" id="Sucr" value="Sucr">Sucre</option>
-                    <option name="San andr" id="San andr" value="San andr">San Andrés y Providencia</option>
-                    <option name="Sant" id="Sant" value="Sant">Santander</option>
+                    <option id="Sucr" value="Sucr">Sucre</option>
+                    <option id="SanAndres" value="San andr">San Andrés y Providencia</option>
+                    <option id="Sant" value="Sant">Santander</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="T">
-                    <option name="Toli" id="Toli" value="Toli">Tolima</option>
+                    <option id="Toli" value="Toli">Tolima</option>
                 </optgroup>
-                <hr>
 
                 <optgroup label="V">
-                    <option name="Val" id="Val" value="Val">Valle del Cauca</option>
-                    <option name="Vau" id="Vau" value="Vau">Vaupés</option>
-                    <option name="Vich" id="Vich" value="Vich">Vichada</option>
+                    <option id="Val" value="Val">Valle del Cauca</option>
+                    <option id="Vau" value="Vau">Vaupés</option>
+                    <option id="Vich" value="Vich">Vichada</option>
                 </optgroup>
             </select>
             <br>
@@ -320,11 +308,11 @@
                 <option value="Zimbabue">Zimbabue</option>
             </select>
             <br>
-            <label for="tel">Telefono</label>
+            <label id="tel">Telefono</label>
             <input type="tel" name="tel" id="phone" class="alert alert-info">
         </div>
     </form>
-    <form action="" class="">
+    <form>
         <div class="cont2">
             <h2>Descripción personal</h2>
             <p>Es importante para nosotros saber como te ves, como eres y que sueños tienes</p>
@@ -333,46 +321,44 @@
             <label>¿A qué carrera deseas inscribirte?</label>
             <br>
             <input type="checkbox">
-            <label for="jb">JOBS TO BE DONE</label>
+            <label id="jb">JOBS TO BE DONE</label>
             <br>
             <input type="checkbox">
-            <label for="cloud">CLOUD NATIVE</label>
+            <label id="cloud">CLOUD NATIVE</label>
             <br>
             <input type="checkbox">
-            <label for="front">FRONTEND</label>
+            <label id="front">FRONTEND</label>
             <br>
             <input type="checkbox">
-            <label for="backe">BACKEND</label>
+            <label id="backe">BACKEND</label>
             <br>
             <input type="checkbox">
-            <label for="funds">FUNDAMENTALS</label>
+            <label id="funds">FUNDAMENTALS</label>
             <br>
             <input type="checkbox">
-            <label for="pyt">PYTHON</label>
+            <label id="pyt">PYTHON</label>
             <br>
             <input type="checkbox">
-            <label for="mark">MARKETING DIGITAL</label>
+            <label id="mark">MARKETING DIGITAL</label>
             <br>
-            <label for="mod">Modalidad</label>
+            <label id="mod">Modalidad</label>
             <br>
             <input type="radio">
-            <label for="prese">Presencial</label>
+            <label id="prese">Presencial</label>
             <br>
             <input type="radio">
-            <label for="onl">Online</label>
+            <label id="onl">Online</label>
             <br>
-            <label for="trab">¿Estás trabajando actualmente?</label>
+            <label id="trab">¿Estás trabajando actualmente?</label>
             <br>
             <input type="radio">
-            <label for="si">Si</label>
+            <label id="si">Si</label>
             <input type="radio">
-            <label for="no">No</label>
+            <label id="no">No</label>
         </div>
     </form>
     <button type="button">Enviar</button>
     <input type="reset"  value="Eliminar">
-
-</body>
 
 <script>
     const phoneInputField = document.querySelector("#phone");
@@ -416,5 +402,5 @@
     }
 
 </script>
-
+</body>
 </html>
