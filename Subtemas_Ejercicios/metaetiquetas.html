@@ -18,28 +18,28 @@
  <hr>
 
  <h2>Formulario de contacto</h2>
- <form method="post" action="">
+ <form method="post">
      <fieldset>
          <legend>Datos obligatorios</legend>
-         <label for="nombre">Nombre completo:</label>
+         <label id="name">Nombre completo:</label>
          <input type="text" id="nombre" name="nombre" required>
          <br>
-         <label for="email">Correo electronico:</label>
+         <label id="gamil">Correo electronico:</label>
          <input type="email" id="email" name="correo">
          <br>
-         <label for="genero">Masculino:</label>
+         <label id="genero">Masculino:</label>
          <input type="checkbox" id="genero2" name="genero">
          <br>
-         <label for="genero1">Femenino:</label>
+         <label id="gene1">Femenino:</label>
          <input type="checkbox" id="genero1" name="genero1">
          <br>
-         <label for="">Otro:</label>
+         <label>Otro:</label>
          <input type="text" name="otrogenero">
      </fieldset>
      <br>
      <fieldset>
          <legend>Datos opcionales</legend>
-         <label for="tel">Ingrese su teléfono:</label>
+         <label id="telefono">Ingrese su teléfono:</label>
          <input type="tel" id="tel" name="telefono" placeholder="+57 (000)  000-0000">
          <h4>¿En qué te puedo ayudar</h4>
          <br>
@@ -53,12 +53,12 @@
      <br>
      <fieldset>
  <pre>
-<label for="horario">
+<label id="horario">
 ¿Qué horario se acomoda mejor para contactarte?</label>
     
 <input type="datetime-local">
     
-<label for="más de ti">¿Hay algo que quieras agregar?</label>
+<label>¿Hay algo que quieras agregar?</label>
 
 <textarea name="agregar" id="agregar" cols="30" rows="10"></textarea>
  </pre>
